@@ -1,0 +1,39 @@
+# Source Identification
+source:
+    
+
+    tally:
+    type: accounting_file
+    identifire_clmn: ["VoucherID", "LedgerName"]
+
+    valiation:
+    required_field :
+       -data
+       -ledger
+       -voucherType
+# Required Fields per Source
+# Source Validation Rules
+rules:
+    -name: credit_debit_exclucivity
+    -condition:"when credit_column == Null & debit_column == 0 "
+    -action: flag_anomaly
+    
+    -name : duplicate_voucher
+    -condition : "voucher_id is same in many rows"
+    -action: duplicate_found
+confidence_base : 0.95
+
+
+
+    bank:
+    type:finanancial_institution
+    identification_column : ["TransactionId","ReferenceNo"]
+    
+    rules:
+        -name : missing_reference
+        -condition: "Reference_no_missing"
+        -action: reduce_confidence
+
+confidence_base:0.98
+
+        

@@ -1,0 +1,26 @@
+# Category Hierarchy Definition
+category:
+hirerchy_rules:
+  OPERATING_EXPENSE
+  NON_OPERATING
+  FINANCIAL_INFLOW
+  FINANCIAL_OUTFLOW
+mapping:
+FOOD:
+   keyword: ["food", "lunch", "canteen","kitchen" , "eating"]
+   category: NON_OPERATING
+
+TRAVEL:
+   keyword: ["uber","taxi" , "journey" , "travel"]
+   category:OPERATING_EXPENSE
+
+SALES:
+   keyword: ["Sales", "tally", "invoice"]
+   category: FINANCIAL_INFLOW
+PURCHASE:
+   keyword: ["bill", "credit", "tally"]
+   category: FINANCIAL_OUTFLOW
+fallback:
+unknown_category: "other_expenses"
+  
+confidence_panelty :  0.30

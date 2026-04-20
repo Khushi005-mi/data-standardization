@@ -1,0 +1,17 @@
+# Default Currency
+system:
+default_currency: "INR"
+default_time :  "Asia/Kolkata"
+# Confidence Thresholds
+confidence_threshold:
+auto_correct: 0.80
+manual_review: 0.60
+reject_below: 0.40
+# Strict Mode Rules
+allow_unmapped_category: False
+allow_missing_party : False
+allow_unknown_currency: False
+# Audit Logging Rules
+log_all_info: True
+store_raw_data : True
+store_intermediate_state: True

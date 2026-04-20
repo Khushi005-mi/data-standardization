@@ -1,0 +1,35 @@
+# Missing Value Handling
+fall_back:
+    missing_data:
+    GSTIN:
+      strategy: infer_from_party_name
+      confidence_panelty: 0.30
+    category:
+      strategy: ml_classification_fallback
+      action: "Other"
+      confidence_panelty: 0.20
+    amount:
+      strategy: reject_data
+      reason:"amount_is_null"
+      confidence_panelty: 0.00
+
+duplicates:
+    strategy:soft_merge
+    match_field:
+    -client_id
+    -reference_no
+    -amount
+
+    action: 
+      -keep_latest
+      -mark_as_duplicate
+
+
+anomalies:
+-negative_revenue 
+action: "mark_as_invalid"
+
+future_dates:
+action: "future_store"
+
+

@@ -1,0 +1,16 @@
+ExpenseID,Date,Category,Amount,PaidBy,VendorName,Notes
+E1001,2025-01-01,food,300,UPI,Tea Stall,breakfast
+E1002,2025-01-01,Fooding,500,Cash,Restaurant A,lunch meeting
+E1003,2025-01-02,OFFICE SUPPLIES,1200,Card,Stationery Shop,files
+E1004,2025-01-02,lunchhh,250,UPI,Canteen,staff lunch
+E1005,2025-01-03,Travel,800,UPI,Auto Driver,client visit
+E1006,2025-01-03,travel,900,UPI,Auto Driver,duplicate entry error
+E1007,2025-01-03,Travel,900,UPI,Auto Driver,duplicate entry error
+E1008,2025-01-04,Internet Bill,999,Card,ISP Provider,monthly bill
+E1009,2025-01-04,Food,0,Cash,Unknown,invalid entry
+E1010,2025-01-05,Marketing,15000,Card,Meta Ads,facebook campaign
+E1011,2025-01-05,MARKETING,15000,Card,Meta Ads,duplicate campaign entry
+E1012,2025-01-06,Repair,12000,Cash,Machine Vendor,maintenance
+E1013,2025-01-06,repair expense,12000,Cash,Machine Vendor,duplicate repair
+E1014,2025-01-07,Subscription,1999,Card,SaaS Tool,crm
+E1015,2025-01-07,Subscriptn,1999,Card,SaaS Tool,typo category

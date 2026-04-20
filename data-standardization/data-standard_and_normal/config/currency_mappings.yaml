@@ -1,0 +1,21 @@
+# Base Currency Definition
+base: INR
+supported:
+    -USD
+    -INR
+    -EUR
+conversion:
+    USD_INR:
+        rate: 93.17
+        volatility_buffer =  0.86
+        
+    EUR_INR:
+        rate: 90.1    
+
+rules: 
+name: missing_currency_value
+action: "assume INR"
+confidence_rate: 0.15
+
+name : force_based_currency
+action: assume all to be INR

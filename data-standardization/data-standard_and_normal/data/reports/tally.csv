@@ -1,0 +1,18 @@
+VoucherID,Date,LedgerName,DebitAmount,CreditAmount,VoucherType,PartyName,GSTIN,Narration
+V1001,2025-01-01,Sales A/c,,45000,Sales,ABC Traders,29ABCDE1234F1Z5,Invoice sale goods batch A
+V1002,2025-01-01,Purchase A/c,32000,,Purchase,XYZ Suppliers,27XYZAB9876K1Z3,Raw material procurement
+V1003,2025/01/02,SALES ACCOUNT,,38000,Sales,DEF Retailers,29DEFRT5678L1Z9,Online marketplace order
+V1004,2025-01-02,Office Expense,2500,,Journal,,,"Tea snacks staff meeting"
+V1005,2025-01-02,Sales A/c,,45000,Sales,ABC Traders,29ABCDE1234F1Z5,Duplicate invoice entry test
+V1005,2025-01-02,Sales A/c,,45000,Sales,ABC Traders,29ABCDE1234F1Z5,Duplicate invoice entry test
+V1006,02-01-2025,Marketing Expense,15000,,Journal,,,"Facebook ads campaign"
+V1007,2025-01-03,Sales Account,,52000,Sales,GHI Enterprises,29GHIRT1234Z1X2,Corporate bulk order
+V1008,2025-01-03,Bank Charges,75,,Journal,,,"Monthly maintenance fee"
+V1009,2025-01-04,Sales A/c,,60000,Sales,ABC Traders,29ABCDE1234F1Z5,Repeat customer order
+V1010,2025-01-04,Purchase A/c,41000,,Purchase,LMN Supplies,27LMNRT5555K1Z1,Inventory restock
+V1011,2025-01-05,Sales A/c,,70000,Sales,DEF Retailers,29DEFRT5678L1Z9,Export sale USD converted
+V1012,2025-01-05,Travel Expense,8000,,Journal,,,"Client visit travel"
+V1013,2025-01-06,Sales Account,,38000,Sales,XYZ Retail,29XYZRT9988K1Z2,POS billing entry
+V1014,2025-01-06,Sales A/c,,38000,Sales,XYZ Retail,29XYZRT9988K1Z2,Duplicate POS entry
+V1015,2025-01-07,Repair Expense,12000,,Journal,,,"Machine maintenance"
+V1016,2025-01-07,Sales A/c,,95000,Sales,Global Corp,98INTL9999Z1Z1,International invoice USD
